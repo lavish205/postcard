@@ -2,8 +2,9 @@
 Gmail basics
 ==============
 
-1. MYSQL Configuration Commands:
-
-	create database postcard character set utf8;
-	create user 'postcard'@'localhost' identified by 'postcard';
-	grant all on postcard.* to 'postcard'@'localhost';
+1. Create the database named postcard:
+	`create database postcard character set utf8;`
+2. Add a user
+	`create user 'postcard'@'localhost' identified by 'postcard';`
+3. Set Permissions
+	`grant all on postcard.* to 'postcard'@'localhost';`
