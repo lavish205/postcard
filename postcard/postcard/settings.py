@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'user_auth',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -67,6 +68,9 @@ TEMPLATES = [
         },
     },
 ]
+
+#user model swapped
+AUTH_USER_MODEL = 'user_auth.User'
 
 WSGI_APPLICATION = 'postcard.wsgi.application'
 
