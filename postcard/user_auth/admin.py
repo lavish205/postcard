@@ -1,6 +1,4 @@
 from django.contrib import admin
-from django.contrib.admin.util import flatten_fieldsets
-
 from .models import User
 
 
