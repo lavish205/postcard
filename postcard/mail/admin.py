@@ -4,4 +4,4 @@ from .models import *
 
 @admin.register(Mail)
 class UserAdmin(admin.ModelAdmin):
-    list_display = ("subject")
+    list_display = ("subject",)
