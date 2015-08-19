@@ -1,5 +1,5 @@
 from rest_framework import routers
-from .serializers import UserViewSet
+from user_auth.views import UserViewSet
 from django.conf.urls import include, url
 
 
