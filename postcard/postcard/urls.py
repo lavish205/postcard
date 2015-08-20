@@ -25,6 +25,7 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
      # url(r'^', include(router.urls)),
     url(r'^', include('user_auth.urls')),
+    url(r'^', include('mail.urls')),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))      
     # url(r'', include('mail.urls', namespace="mail")),
 ]
